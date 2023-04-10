@@ -1,14 +1,14 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class ColorPage extends StatefulWidget {
+  const ColorPage({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<ColorPage> createState() => _ColorPageState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _ColorPageState extends State<ColorPage> {
   final Random _random = Random();
   Color _backgroundColor = Colors.white;
   int _index = 0;
